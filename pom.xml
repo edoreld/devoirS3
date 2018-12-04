@@ -2,10 +2,10 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.martinezjavier</groupId>
-  <artifactId>devoirs2</artifactId>
+  <artifactId>additioner</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>devoirs2 Maven Webapp</name>
+  <name>additioner Maven Webapp</name>
   
   <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -32,6 +32,6 @@
 </dependency>
   </dependencies>
   <build>
-    <finalName>devoirs2</finalName>
+    <finalName>additioner</finalName>
   </build>
 </project>

@@ -69,7 +69,7 @@ public class AdditionerServlet extends HttpServlet {
 				out.println("Exécution impossible, paramètre manquant");
 			}				
 		} else {
-			LOGGER.info("Malformed request");
+			LOGGER.warning("Malformed request");
 			resp.setStatus(500);
 			out.println("Exécution impossible, paramètre manquant");
 		}
@@ -98,8 +98,8 @@ public class AdditionerServlet extends HttpServlet {
 				out.println("OK");
 				
 			} catch (NumberFormatException e){
+				LOGGER.warning("Malformed request");
 				resp.setStatus(500);
-				
 				out.println("Exécution impossible, paramètre manquant.");				
 			}
 		}
