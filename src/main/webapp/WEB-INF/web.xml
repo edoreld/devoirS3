@@ -4,14 +4,4 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-  <servlet>
-  	<servlet-name>AdditionerServlet</servlet-name>
-  	<display-name>AdditionerServlet</display-name>
-  	<description></description>
-  	<servlet-class>com.martinezjavier.additioner.AdditionerServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-  	<servlet-name>AdditionerServlet</servlet-name>
-  	<url-pattern>/AdditionerServlet</url-pattern>
-  </servlet-mapping>
 </web-app>
